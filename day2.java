@@ -1,6 +1,6 @@
 //today i solved a question where i was given a array called num and linked list called head where i had to remove all the alements of array found in linked list head. 
 //so i 1st made a new modified linkedlist and keep on checking and comparing the array elements to the linkedlist element with the help of freq which gives boolean value true if the element is same then we skip that value if not same then we remove it and add to the modified linkedlist which only have values other than values matching from array.
-
+//concl: i revised linkedlist concept and the time complexity is O(n+m) where n is length of array and m is length of linkedlist
 class Solution {
     public ListNode modifiedList(int[] nums, ListNode head) {
        int max=-1;
