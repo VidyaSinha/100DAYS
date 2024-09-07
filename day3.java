@@ -1,5 +1,5 @@
 //today i solved a question of binary tree and linkedlist where i was supposed to know if the linked list exist in the tree from top to bottom snd bottom to top 
-
+// the approach is that we start checking it from head if the value is same then jump to next and keep on doing this in left and right children.
 
 
 class Solution {
@@ -7,7 +7,6 @@ class Solution {
         return dfs(head, head, root);  // Start DFS search
     }
 
-    // DFS helper function
     boolean dfs(ListNode head, ListNode cur, TreeNode root) {
         // If we reach the end of the linked list, return true (successful match)
         if (cur == null) return true;
