@@ -1,6 +1,7 @@
 //today i solved a question of binary tree and linkedlist where i was supposed to know if the linked list exist in the tree from top to bottom snd bottom to top 
 // the approach is that we start checking it from head if the value is same then jump to next and keep on doing this in left and right children.
-
+// time complexity is O(n*m) since n is the number of nodes and m is the maximum no. of comparisons
+// space complexity is O(n)
 
 class Solution {
     public boolean isSubPath(ListNode head, TreeNode root) {
