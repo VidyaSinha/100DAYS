@@ -1,3 +1,5 @@
+//today is day 7 of solving leetcode questions
+
 class Solution {
     public int minBitFlips(int start, int goal) {
         int ans = 0; 
