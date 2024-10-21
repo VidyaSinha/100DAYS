@@ -1,3 +1,5 @@
+//backtrack ques LC1593
+
 class Solution {
 public:
     unordered_set<string> word;
@@ -12,7 +14,7 @@ public:
             if (word.count(t)) continue;
             word.insert(t);
             f(j+1, cnt+1, s);
-            word.erase(t);// backtrack
+            word.erase(t);
         }
 
     }
