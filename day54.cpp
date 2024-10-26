@@ -1,3 +1,4 @@
+//2458. Height of Binary Tree After Subtree Removal Queries
 class Solution {
 public:
     // Array to store the maximum height of the tree after removing each node
