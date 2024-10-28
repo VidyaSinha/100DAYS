@@ -1,3 +1,4 @@
+//2501. Longest Square Streak in an Array
 class Solution {
 public:
     int longestSquareStreak(vector<int>& nums) {
