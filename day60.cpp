@@ -1,3 +1,4 @@
+//A fancy string is a string where no three consecutive characters are equal.
 class Solution {
 public:
     string makeFancyString(string s) {
