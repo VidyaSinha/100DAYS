@@ -12,6 +12,6 @@ public:
             if (split==-1) break;
             if (s[split-1]!=s[split+1]) return 0;
         }
-        return 1;
+        return 1;zz
     }
 };
